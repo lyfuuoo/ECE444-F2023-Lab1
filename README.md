@@ -5,4 +5,4 @@ Yun Ru
 The repo references https://github.com/miguelgrinberg/flasky.
 
 # activity 1 
-![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/d2ed2801-8727-4718-9dfc-aab956ddaf68)
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/52090460-f1eb-4e9e-ba80-15ec594a2741)
