@@ -3,8 +3,8 @@ from datetime import datetime
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
+from wtforms import StringField, SubmitField, EmailField
+from wtforms.validators import DataRequired, Email, ValidationError
 import re
 
 app = Flask(__name__)
@@ -12,9 +12,15 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 app.config['SECRET_KEY'] = 'guess key'
 
+class validationEmail(object):
+        def __call__(self, form, field):
+            email = field.data
+            if '@' not in email:
+                raise ValidationError(f'Please include an @ in the email. {field.data} is missing an @.')
+            
 class NameForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
-    email = StringField('What is your UofT email address?', validators=[DataRequired(), Email()])
+    email = StringField('What is your UofT email address?', validators=[DataRequired(), validationEmail()])
     submit = SubmitField('Submit')
 
 
