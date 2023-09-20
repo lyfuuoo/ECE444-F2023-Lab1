@@ -21,3 +21,12 @@ The repo references https://github.com/miguelgrinberg/flasky.
 #### `/` route
 ![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/e8c039e1-4551-49fa-a5c8-d0594d49cdec)
 
+# activity 4
+#### step 2: screenshot
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/fcd546a3-64aa-411d-9a52-e5ce0c66b5a4)
+#### step 3: screenshot
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/ce350622-3580-4433-87b3-406c0049d79e)
+#### step 4: screenshot
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/6ec780b4-911d-4d4f-b85e-7af055c9e6c6)
+#### step 5: screenshot
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/cbc6dd15-8bd6-41c2-a928-73fd8121c78a)
