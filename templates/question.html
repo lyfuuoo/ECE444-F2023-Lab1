@@ -37,6 +37,12 @@
 <div class="container">
     <div class="page-header">
         <h1>Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!</h1>
+        
+        {% if email and email != 'invalid' %}
+        <h1>Your UofT email is {{email}}</h1>
+        {% else %}
+        <h1>Please enter a UofT email.</h1>
+        {% endif %}
     </div>{{ wtf.quick_form(form) }}
 </div>
 {% endblock %}
