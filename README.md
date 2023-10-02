@@ -8,3 +8,7 @@
 ### activity 2
 #### add a screenshot to show that I have downloaded docker in my labtop
 ![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/32df2d57-fc62-4275-90b8-4525f1b7090c)
+
+### activity 3
+#### add a screenshot to show that the application running locally
+![image](https://github.com/lyfuuoo/ECE444-F2023-Lab1/assets/74110890/0b7527a6-4055-410c-bca9-11ed39cca1b7)
